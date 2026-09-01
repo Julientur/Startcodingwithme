@@ -1,0 +1,232 @@
+1. Afficher les nombres de 1 à 10
+
+
+DEBUT
+	POUR i allant de 1 à 10
+		AFFICHER i
+		i++
+	FINPOUR
+FIN
+
+
+_____________________________________________________________
+
+2. Afficher la somme des nombres de 1 à 10
+
+
+DEBUT
+entiers i,somme
+Somme = 0
+	POUR i allant de 1 à 10
+		somme = somme + i
+		i++
+	FINPOUR	
+	afficher somme
+FIN
+
+_____________________________________________________________
+
+3. Afficher les nombres de n à m
+
+DEBUT
+entiers i,n,m
+	POUR i allant de n à m
+		AFFICHER i
+		i++
+	FINPOUR
+FIN
+
+_____________________________________________________________
+
+Dans le cas où n est supérieur à m, faire 3 versions:
+a) Afficher un message d'erreur et arrêter le programme
+
+
+DEBUT
+entiers e,m,n
+e = erreur
+m = 0
+n = 1
+	SI n>m ALORS
+	AFFICHER e
+	FINSI
+FIN
+
+_____________________________________________________________
+
+b) Permuter n et m puis continuer
+
+
+DEBUT
+entiers n,m,o
+	o ← m
+	m ← n
+	n ← o	
+FIN
+
+_____________________________________________________________
+
+c) Afficher de n à m (de manière décroissante)
+
+
+DEBUT
+entiers i,n,m
+	POUR i allant de m à n
+	i++
+	FINPOUR
+	AFFICHER i
+FIN
+
+_____________________________________________________________
+
+4. afficher la somme des nombres pairs de n à m
+
+DEBUT
+entiers i,n,m,somme
+somme = 0
+	POUR i allant de n à m
+		SI i mod(2)=0 ALORS
+		somme = somme + i
+		i++	
+		FINSI
+	FINPOUR	
+	afficher somme
+FIN
+
+________________________________________________
+
+5. Lire 10 nombres et trouver le plus grand
+
+DEBUT
+entiers max,n,i
+max = 0
+
+	POUR i allant de 1 à 10
+		SI max<n ALORS
+			max ← n
+		FINSI
+		i++
+	FINPOUR
+	afficher max
+FIN
+
+____________________________________________
+_____________________________________________________________
+
+6. Lire 10 nombres et trouver le plus petit et son rang
+
+DEBUT
+entiers v,rang,petit,i
+	POUR i allant de 0 à 9
+		   petit ← v
+		SI petit > v ALORS
+		   petit ← v
+		   rang ← i
+		FINSI
+	i++
+	FINPOUR
+	afficher petit
+	afficher rang
+FIN
+
+__i____DEBUG___sortie___	|1 	:  60		: 
+1	|2	:  40		:
+2	|3	:  9		:30
+3	|4	:  101		: 30
+4	|5	:  56		: 30
+5	|6	:  33	        :
+6	|7	:  18
+7	|8	:  45
+8	|9	:  10
+9	|10	:  10
+
+__i____DEBUG___sortie___
+0	|1 	:  n = 102  min :102
+1	|2 	:  n = 30   min :30
+2	|3	:  n = 75   min :30
+3	|4	:  n = 89   min :30
+4	|5	:  n = 92   min :30
+5	|6	:  n = 12   min :45
+6	|7	:  n = 76   min :76
+7	|8	:  n = 220  min :220
+8	|9	:  n = 100   min :100
+9	|10	:  n = 2000 min :2000
+
+_____________________________________________________________
+_____________________________________________________________
+
+
+7. Lire n nombre et en calculer la moyenne
+
+DEBUT
+entiers: n,moyenne,i,somme
+somme = 0
+	POUR i allant de 0 à 9
+		somme = somme + n
+		i++
+		moyenne = somme /  n
+	afficher moyenne
+	FINPOUR
+FIN
+	
+	
+________________________________________________________
+
+8. Dans un tableau de 10 entiers, trouver les rangs du plus petit et du plus grand élément, et afficher les rangs et leur valeurs
+
+DEBUT
+entiers i, tableau[i], +petit, +grand, rang+, rang-
+Tableau = tableau[10]
+	POUR i allant de 0 à 9
+		+grand ← tableau[i]
+		SI +grand < n ALORS
+		+grand ← n
+		rang+ ← i
+		FINSI
+		-grand ← tableau[i]
+		SI -grand > tableau[i] ALORS
+		-grand ← tableau[i]
+		rang- ← i
+		FINSI
+	i++
+	FINPOUR
+	afficher +grand
+	afficher rang+
+	afficher -grand
+	afficher rang-	
+FIN
+
+
+9. Dans un tableau de 10 entiers, afficher:
+-le plus grand et sa position,
+-la moyenne des entiers,
+-les nombres inférieur à la moyenne
+
+DEBUT
+Entiers : i,tableau[i],somme, +grand, rang+, moyenne, nombres-, nombres+
+tableau : tableau[10]
+somme = 0
+n = 10
+
+	POUR i allant de 0 à 9
+		+grand ← tableau[i]
+		SI +grand < tableau[i] ALORS
+		+grand ← tableau[i]
+		rang+ ← i
+		FINSI
+			somme = somme + tableau[i]
+			moyenne = somme / n
+		afficher moyenne
+		SI tableau[i] < moyenne ALORS
+		afficher tableau[i]	
+	i++
+		
+
+
+
+10.Inverser les éléments d'un tableau de 10 éléments (sans passer par un tableau)
+	
+
+
+
+

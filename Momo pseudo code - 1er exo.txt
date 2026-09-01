@@ -1,0 +1,116 @@
+
+1. Afficher les nombres de 1 à 10
+
+
+DEBUT
+
+	POUR i allant de 0 à 10
+	AFFICHER i
+	FIN POUR
+FIN
+
+
+
+
+2. Afficher la somme des nombres de 1 à 10
+
+
+
+DEBUT
+	POUR i allant de 1 à 10, n = 0 et m = n+i
+	AFFICHER n
+	FAIRE n+i
+	AFFICHER m
+	FIN POUR
+FIN
+
+
+
+3. Afficher les nombres de n à m
+
+
+DEBUT
+	POUR n et m, entiers naturels
+	AFFICHER("nombres de n à m")
+	FIN POUR
+FIN
+
+
+
+Dans le cas où n est supérieur à m, faire 3 versions:
+a) Afficher un message d'erreur et arrêter le programme
+
+
+
+DEBUT
+	SI n>m
+	ALORS
+	AFFICHER(<message d'erreur>)
+	FIN SI
+FIN
+
+
+
+b) Permuter n et m puis continuer
+
+
+
+DEBUT
+	SI n<m
+	ALORS
+	AFFICHER (<message d'erreur>)
+	FIN SI
+FIN
+
+
+
+c) Afficher de n à m (de manière décroissante)
+
+
+
+Pour n et m, entiers naturels
+
+DEBUT
+POUR n et m, entiers naturels
+AFFICHER ("nombres de n à m de manière décroissante")
+FIN
+
+
+
+
+4. afficher la somme des nombres pairs de n à m
+
+
+
+a=1,b=2,c=3,..
+
+DEBUT
+AFFICHER ("somme des nombres pairs de n à m")
+FIN
+
+
+
+
+5. Lire 10 nombres et trouver le plus grand
+
+
+
+Pour entiers naturels
+
+
+
+DEBUT
+LIRE("10 nombres")
+AFFICHER(x)
+FIN
+
+
+
+6. Lire 10 nombres et trouver le plus petit et son rang
+
+
+
+DEBUT
+LIRE("10 nombres")
+AFFICHER(x)
+FIN

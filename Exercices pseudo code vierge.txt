@@ -1,0 +1,117 @@
+1. Afficher les nombres de 1 à 10
+
+
+
+
+
+
+
+
+
+_____________________________________________________________
+
+
+2. Afficher la somme des nombres de 1 à 10
+
+
+
+
+
+
+
+
+
+
+_____________________________________________________________
+
+
+
+3. Afficher les nombres de n à m
+
+
+
+
+
+
+
+
+_____________________________________________________________
+
+
+
+Dans le cas où n est supérieur à m, faire 3 versions:
+a) Afficher un message d'erreur et arrêter le programme
+
+
+
+
+
+
+
+
+
+_____________________________________________________________
+
+
+
+b) Permuter n et m puis continuer
+
+
+
+
+
+
+_____________________________________________________________
+
+
+
+c) Afficher de n à m (de manière décroissante)
+
+
+
+
+_____________________________________________________________
+
+
+4. afficher la somme des nombres pairs de n à m
+
+
+
+
+
+_____________________________________________________________
+
+
+5. Lire 10 nombres et trouver le plus grand
+
+
+
+
+
+
+
+
+
+_____________________________________________________________
+
+
+
+6. Lire 10 nombres et trouver le plus petit et son rang
+
+
+
+
+
+
+
+_____________________________________________________________
+
+
+
+7. Lire n nombre et en calculer la moyenne
+
+
+
+
+
+
